@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.content {
+    background-color: lightblue;
+    
+}
+
+.about,
+.footer {
+    background-color: lightcoral;
+    
+}
+
+.about {
+    display: flex;
+
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+}
