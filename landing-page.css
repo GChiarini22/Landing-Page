@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -18,16 +19,50 @@ body {
 
 .about {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.inside-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .content-pic {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+        }
 .image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
 }
 
-.right-header {
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 15px;
+    }
+
+        a {
+            text-decoration: none;
+        }
