@@ -6,14 +6,14 @@ body {
 }
 
 .header,
-.content {
-    background-color: lightblue;
+.about {
+    background-color: #1F2937;
     
 }
 
-.about,
 .footer {
-    background-color: lightcoral;
+    background-color: #E5E7EB;
+    text-align: center;
     
 }
 
@@ -21,20 +21,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 
+}
+
+.content {
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
 .inside-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 0px;
 }
 
     .content-box {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        height: 250px;
+        width: 250px
+        
     }
 
         .content-pic {
@@ -53,6 +69,11 @@ body {
     justify-content: space-around;
 }
 
+    .left-header {
+        font-size: 24px;
+        color:#f9faf8
+    }
+
     
     ul {
         display: flex;
@@ -65,4 +86,48 @@ body {
 
         a {
             text-decoration: none;
+            color: gray;
         }
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+
+}
+
+.about-para {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.left-about {
+   display: flexbox;
+   flex-direction: column;
+   height: 200px;
+   width: 400px;
+   margin: 0;
+}
